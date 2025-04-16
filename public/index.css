@@ -7,3 +7,85 @@ body {
 h1 {
     color: #1da1f2; /* cor do twitter */
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: "Segoe UI", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 24px;
+    color: #0f1419;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 14px;
+    margin-bottom: 16px;
+    border: 1px solid #cfd9de;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    padding: 14px;
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #1a91da;
+}
+
+.footer-links {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #536471;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.footer-links a {
+    color: #1da1f2;
+    text-decoration: none;
+}

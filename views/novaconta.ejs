@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="login-box">
+      <img src="imagens/twitter-clone.png" width="52" height="42" class="logo" />
+      <h1>Criar conta no Twitter-Clone</h1>
+
+      <form action="/inscrever" method="post">
+        <input type="text" placeholder="Nome completo" name="nome" required />
+        <input type="text" placeholder="Nome de usuário" name="username" required />
+        <input type="email" placeholder="Email" name="email" required />
+        <input type="password" placeholder="Senha" name="senha" required />
+        <button type="submit">Inscrever-se</button>
+      </form>
+
+      <div class="footer-links">
+        <a href="/">Já tem uma conta? Entrar</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
